@@ -6,14 +6,14 @@ dibuat untuk memenuhi persyaratan test Technical Hand-On-TEST di Jakarta Smart C
 
 # first step
 
->> clone git
+clone git
 -- in cmd
->> composer install
->> generate key type "php artisan key:generate"
->> php artisan migrate
->> php artisan serve
+composer install
+generate key type "php artisan key:generate"
+php artisan migrate
+php artisan serve
 
-untuk api login / register / logout
+# untuk api login / register / logout
 
 127.0.0.1:8000/api/login
 127.0.0.1:8000/api/register
