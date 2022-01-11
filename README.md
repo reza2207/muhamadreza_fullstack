@@ -4,7 +4,7 @@
 dibuat untuk memenuhi persyaratan test Technical Hand-On-TEST di Jakarta Smart City
 </p>
 
-## first step
+# first step
 
 >> clone git
 -- in cmd
