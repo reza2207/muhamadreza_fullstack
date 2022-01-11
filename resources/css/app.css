@@ -1,0 +1,13 @@
+.title{
+    position: absolute;
+    width: 81px;
+    height: 43px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #FFFFFF;
+}
