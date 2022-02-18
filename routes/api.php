@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\ArticlesController;
 
+
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -40,3 +41,7 @@ Route::group(['middleware' => 'api'], function() {
     Route::get('/all-articles',[App\Http\Controllers\ArticlesController::class, 'getAllArticles']);
     Route::get('/get-articles/{id}',[App\Http\Controllers\ArticlesController::class, 'getIdArticles']);
 });
+
+Route::get('/tabungan', [App\Http\Controllers\NabungController::class, 'list']);
+Route::get('/tab-user', [App\Http\Controllers\NabungController::class, 'user']);
+Route::post('/tabungan', [App\Http\Controllers\NabungController::class, 'store']);
